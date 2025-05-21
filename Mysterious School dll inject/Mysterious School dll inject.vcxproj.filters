@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\ImGuiHelper">
+      <UniqueIdentifier>{4e041e70-fc17-4075-9521-6b1d9ced293d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Hook">
+      <UniqueIdentifier>{bf2b0495-79e8-41a3-a5d6-93223a37affe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DirectXHelper">
+      <UniqueIdentifier>{556964ae-e341-483d-a038-68dc1489ec4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Handle">
+      <UniqueIdentifier>{81252401-c689-4520-ab23-1cb8b35b9fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ImGuiHelper\ImGui">
+      <UniqueIdentifier>{ebc7a3ca-c451-4e63-b3cb-eddc45120244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sdk_function">
+      <UniqueIdentifier>{21d07699-690e-44b0-817d-0b544f53ba29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXHelper.cpp">
+      <Filter>头文件\DirectXHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiHelper.cpp">
+      <Filter>头文件\ImGuiHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="HookHelper.cpp">
+      <Filter>头文件\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>头文件\Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectXHelper.h">
+      <Filter>头文件\DirectXHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiHelper.h">
+      <Filter>头文件\ImGuiHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="HookHelper.h">
+      <Filter>头文件\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>头文件\ImGuiHelper\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>头文件\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="function.hpp">
+      <Filter>头文件\sdk_function</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
