@@ -1,2 +1,4 @@
-# Mysterious-School-dll-inject
-LingYi School Game inject Hack tool 
+这是一个灵异校园（LingYi School）游戏的注入DLL辅助工具，目前项目处于半成品阶段，功能尚未完善。
+主要用于向灵异校园游戏注入自定义DLL，实现一定的游戏辅助效果。
+
+项目仍在开发中，欢迎有兴趣的朋友一起交流和完善。
